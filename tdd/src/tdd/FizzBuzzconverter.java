@@ -3,7 +3,10 @@ package tdd;
 public class FizzBuzzconverter {
 
 	public String convert(int i) {
-		// TODO Auto-generated method stub
+		if(i%3==0)
+		{
+			return "Fizz";
+		}
 		return String.valueOf(i);
 	}
 
